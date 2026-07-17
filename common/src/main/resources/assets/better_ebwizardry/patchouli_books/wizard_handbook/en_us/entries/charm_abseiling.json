@@ -1,0 +1,11 @@
+{
+  "name": "魔法丝线",
+  "icon": "ebwizardry:charm_abseiling",
+  "category": "better_ebwizardry:sacred_relic",
+  "pages": [
+	{
+      "type": "text",
+      "text" : "N/A"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "魔法飞弹",
+  "icon": "ebwizardry:spell_book",
+  "category": "better_ebwizardry:spell",
+  "pages": [
+	{
+      "type": "text",
+      "text" : "N/A"
+    }
+  ]
+}

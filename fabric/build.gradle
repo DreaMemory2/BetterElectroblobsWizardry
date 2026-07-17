@@ -1,0 +1,82 @@
+plugins {
+    id 'com.gradleup.shadow'
+}
+
+loom {
+
+    runs{
+        data {
+            inherit client
+            setConfigName("Data Generation")
+            ideConfigGenerated(true)
+
+            vmArg("-Dfabric-api.datagen")
+            vmArg("-Dfabric-api.datagen.output-dir=${project(":common").file("src/generated/resources")}")
+            vmArg("-Dfabric-api.datagen.modid=better_ebwizardry")
+
+            runDir "build/datagen"
+
+        }
+    }
+
+}
+
+architectury {
+    platformSetupLoomIde()
+    fabric()
+}
+
+configurations {
+    common {
+        canBeResolved = true
+        canBeConsumed = false
+    }
+    compileClasspath.extendsFrom common
+    runtimeClasspath.extendsFrom common
+    developmentFabric.extendsFrom common
+
+    shadowBundle {
+        canBeResolved = true
+        canBeConsumed = false
+    }
+}
+
+dependencies {
+    modImplementation "net.fabricmc:fabric-loader:$project.fabric_loader_version"
+
+    // Fabric API. This is technically optional, but you probably want it anyway.
+    modImplementation "net.fabricmc.fabric-api:fabric-api:$project.fabric_api_version"
+
+    // Architectury API. This is optional, and you can comment it out if you don't need it.
+    modImplementation "dev.architectury:architectury-fabric:$project.architectury_api_version"
+    // Main Mod
+    modImplementation "maven.modrinth:electroblobs-wizardry-redux:${project.ebwizardry_version}-fabric"
+    // Cca Mod
+    include(modImplementation("dev.onyxstudios.cardinal-components-api:cardinal-components-base:${project.cca_version}"))
+    include(modImplementation("dev.onyxstudios.cardinal-components-api:cardinal-components-entity:${project.cca_version}"))
+    include(modImplementation("dev.onyxstudios.cardinal-components-api:cardinal-components-item:${project.cca_version}"))
+    include(modImplementation("dev.onyxstudios.cardinal-components-api:cardinal-components-block:${project.cca_version}"))
+    // Patchouli Mod 帕秋莉手册
+    modImplementation "vazkii.patchouli:Patchouli:${project.patchouli_version}-FABRIC"
+
+    common(project(path: ':common', configuration: 'namedElements')) { transitive = false }
+    shadowBundle project(path: ':common', configuration: 'transformProductionFabric')
+}
+
+processResources {
+    inputs.property 'version', project.version
+
+    filesMatching('fabric.mod.json') {
+        expand version: inputs.properties.version
+    }
+}
+
+shadowJar {
+    configurations = [project.configurations.shadowBundle]
+    archiveClassifier = 'dev-shadow'
+}
+
+remapJar {
+    inputFile.set shadowJar.archiveFile
+}
+

@@ -1,0 +1,11 @@
+{
+  "name": "魔法水晶",
+  "icon": "ebwizardry:magic_crystal",
+  "category": "better_ebwizardry:magic_item",
+  "pages": [
+	{
+      "type": "text",
+      "text" : "N/A"
+    }
+  ]
+}

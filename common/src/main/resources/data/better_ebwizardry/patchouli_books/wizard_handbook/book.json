@@ -1,0 +1,9 @@
+{
+  "name": "text.ebwizardry.book.title",
+  "landing_text": "text.ebwizardry.book.landing",
+  "version": "1",
+  "book_texture": "patchouli:textures/gui/book_cyan.png",
+  "model": "ebwizardry:wizard_handbook",
+  "creative_tab": "ebwizardry:ebwizardry",
+  "use_resource_pack": true
+}

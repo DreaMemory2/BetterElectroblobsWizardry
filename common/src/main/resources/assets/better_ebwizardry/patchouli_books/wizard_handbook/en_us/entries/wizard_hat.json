@@ -1,0 +1,11 @@
+{
+  "name": "巫师帽",
+  "icon": "ebwizardry:wizard_hat",
+  "category": "better_ebwizardry:equipment",
+  "pages": [
+	{
+      "type": "text",
+      "text" : "N/A"
+    }
+  ]
+}

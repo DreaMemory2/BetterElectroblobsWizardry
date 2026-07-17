@@ -1,0 +1,11 @@
+{
+  "name": "Amulet Anchoring",
+  "icon": "ebwizardry:amulet_anchoring",
+  "category": "better_ebwizardry:sacred_relic",
+  "pages": [
+	{
+      "type": "text",
+      "text" : "N/A"
+    }
+  ]
+}

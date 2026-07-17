@@ -1,0 +1,11 @@
+{
+  "name": "Acacia Bookshelf",
+  "icon": "ebwizardry:acacia_bookshelf",
+  "category": "better_ebwizardry:block",
+  "pages": [
+	{
+      "type": "text",
+      "text" : "N/A"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+architectury {
+    common project.property('enabled_platforms').split(',')
+}
+
+sourceSets.main.resources.srcDir 'src/generated/resources'
+
+dependencies {
+    modImplementation "net.fabricmc:fabric-loader:$project.fabric_loader_version"
+
+    modImplementation "dev.architectury:architectury:$project.architectury_api_version"
+    // Main Mod
+    modImplementation "maven.modrinth:electroblobs-wizardry-redux:${project.ebwizardry_version}-fabric"
+    // Patchouli Mod 帕秋莉手册
+    modImplementation "vazkii.patchouli:Patchouli-xplat:${project.patchouli_version}"
+}

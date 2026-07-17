@@ -1,0 +1,15 @@
+{
+  "name": "自然魔杖",
+  "icon": "ebwizardry:wand_novice_earth",
+  "category": "better_ebwizardry:magic_wand",
+  "pages": [
+	{
+      "type": "text",
+      "text" : "大地属性最低级的法杖，需要1个苍翠水晶、1个木棍、1个金粒制作。也会在战利品箱子里有概率开出。$(br)$(2)+15%大地属性能力$()。带有5个法术槽位，具有700点魔法上限，以及2000的熟练度进度条。$(br)熟练度进度可以通过F3+H开启高级提示框查看，或者将法杖放入奥术工作台查看。$(br)当熟练度达到2000便可放入奥术工作台，再放入奥术宝典（学徒），即可消耗宝典将法杖升级为『学徒』地术师魔杖。"
+    },
+	{
+      "type": "crafting",
+      "recipe": "ebwizardry:wand_novice_earth"
+    }
+  ]
+}

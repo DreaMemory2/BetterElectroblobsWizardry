@@ -1,0 +1,11 @@
+{
+  "name": "Acacia Lectern",
+  "icon": "ebwizardry:acacia_lectern",
+  "category": "better_ebwizardry:block",
+  "pages": [
+	{
+      "type": "text",
+      "text" : "N/A"
+    }
+  ]
+}

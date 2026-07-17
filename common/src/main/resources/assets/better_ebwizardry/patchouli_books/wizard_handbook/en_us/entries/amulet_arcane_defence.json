@@ -1,0 +1,11 @@
+{
+  "name": "Amulet Arcane Defence",
+  "icon": "ebwizardry:amulet_arcane_defence",
+  "category": "better_ebwizardry:sacred_relic",
+  "pages": [
+	{
+      "type": "text",
+      "text" : "N/A"
+    }
+  ]
+}

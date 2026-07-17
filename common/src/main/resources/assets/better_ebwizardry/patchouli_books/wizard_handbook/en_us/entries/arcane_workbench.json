@@ -1,0 +1,11 @@
+{
+  "name": "奥术工作台",
+  "icon": "ebwizardry:arcane_workbench",
+  "category": "better_ebwizardry:function_block",
+  "pages": [
+	{
+      "type": "text",
+      "text" : "N/A。"
+    }
+  ]
+}

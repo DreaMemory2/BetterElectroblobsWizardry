@@ -1,0 +1,11 @@
+{
+  "name": "Amulet Auto Shield",
+  "icon": "ebwizardry:amulet_auto_shield",
+  "category": "better_ebwizardry:sacred_relic",
+  "pages": [
+	{
+      "type": "text",
+      "text" : "N/A"
+    }
+  ]
+}

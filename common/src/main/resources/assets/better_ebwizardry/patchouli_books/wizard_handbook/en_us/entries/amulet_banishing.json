@@ -1,0 +1,11 @@
+{
+  "name": "Amulet Banishing",
+  "icon": "ebwizardry:amulet_banishing",
+  "category": "better_ebwizardry:sacred_relic",
+  "pages": [
+	{
+      "type": "text",
+      "text" : "N/A"
+    }
+  ]
+}

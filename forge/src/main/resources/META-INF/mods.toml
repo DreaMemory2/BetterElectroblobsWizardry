@@ -1,0 +1,40 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "better_ebwizardry"
+version = "${version}"
+displayName = "Better Electroblob's Wizardry"
+authors = "Crystal"
+description = "This is an Better Electroblob's Wizardry  Mod"
+logoFile = "./assets/better_ebwizardry/textures/icon.png"
+
+[[dependencies.better_ebwizardry]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.better_ebwizardry]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.better_ebwizardry]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.2.14,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.better_ebwizardry]]
+modId = "ebwizardry"
+mandatory = true
+versionRange = "[0.8.5.1-forge,)"
+ordering = "AFTER"
+side = "BOTH"

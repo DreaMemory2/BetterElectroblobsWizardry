@@ -1,0 +1,11 @@
+{
+  "name": "Amulet Fire Cloaking",
+  "icon": "ebwizardry:amulet_fire_cloaking",
+  "category": "better_ebwizardry:sacred_relic",
+  "pages": [
+	{
+      "type": "text",
+      "text" : "N/A"
+    }
+  ]
+}

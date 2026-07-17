@@ -1,0 +1,11 @@
+{
+  "name": "Amulet Channeling",
+  "icon": "ebwizardry:amulet_channeling",
+  "category": "better_ebwizardry:sacred_relic",
+  "pages": [
+	{
+      "type": "text",
+      "text" : "N/A"
+    }
+  ]
+}

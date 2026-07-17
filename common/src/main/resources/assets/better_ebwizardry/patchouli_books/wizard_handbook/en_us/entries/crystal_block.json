@@ -1,0 +1,11 @@
+{
+  "name": "水晶快",
+  "icon": "ebwizardry:crystal_block_magic",
+  "category": "better_ebwizardry:block",
+  "pages": [
+	{
+      "type": "text",
+      "text" : "N/A"
+    }
+  ]
+}
