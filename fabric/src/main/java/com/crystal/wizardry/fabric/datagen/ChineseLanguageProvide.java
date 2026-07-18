@@ -19,5 +19,6 @@ public class ChineseLanguageProvide extends FabricLanguageProvider {
 
     protected void item(TranslationBuilder builder) {
         builder.add(ModItems.LOCKED_BOOK.get(), "上锁的书");
+        builder.add(ModItems.ASTRAL_DIAMOND_SHARD.get(), "星芒宝钻碎片");
     }
 }

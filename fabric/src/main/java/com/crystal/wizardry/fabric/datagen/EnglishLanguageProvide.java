@@ -17,5 +17,6 @@ public class EnglishLanguageProvide extends FabricLanguageProvider {
 
     protected void item(TranslationBuilder builder) {
         builder.add(ModItems.LOCKED_BOOK.get(), "Locked Book");
+        builder.add(ModItems.ASTRAL_DIAMOND_SHARD.get(), "Astral Diamond Shard");
     }
 }

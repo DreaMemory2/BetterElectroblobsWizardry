@@ -21,5 +21,6 @@ public class ModModelProvide extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerators itemModel) {
         itemModel.generateFlatItem(ModItems.LOCKED_BOOK.get(), ModelTemplates.FLAT_ITEM);
+        itemModel.generateFlatItem(ModItems.ASTRAL_DIAMOND_SHARD.get(), ModelTemplates.FLAT_ITEM);
     }
 }

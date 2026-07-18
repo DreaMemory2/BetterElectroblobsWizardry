@@ -14,5 +14,6 @@ public class BetterWizardryDataGenerator implements DataGeneratorEntrypoint {
         pack.addProvider(ModModelProvide::new);
         pack.addProvider(ModRecipeProvide::new);
         pack.addProvider(ModAdvancementProvide::new);
+        pack.addProvider(ModItemTagProvide::new);
     }
 }
