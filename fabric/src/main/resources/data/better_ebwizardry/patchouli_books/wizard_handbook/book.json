@@ -5,5 +5,14 @@
   "book_texture": "patchouli:textures/gui/book_cyan.png",
   "model": "ebwizardry:wizard_handbook",
   "creative_tab": "ebwizardry:ebwizardry",
-  "use_resource_pack": true
+  "use_resource_pack": true,
+  "macros": {
+	  "<number>": "$(#E06C75)",
+	  "<item>": "$(#61AEEE)",
+    "<block>": "$(#61AEEE)",
+    "<a>": "$(#61AEEE)",
+    "<keyboard>": "$(#D19A5C)",
+    "<magic>": "$(#FF55FF)",
+	  "</>": "$()"
+  }
 }

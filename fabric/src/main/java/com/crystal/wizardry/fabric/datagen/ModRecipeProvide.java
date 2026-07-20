@@ -200,8 +200,8 @@ public class ModRecipeProvide extends FabricRecipeProvider {
                 .unlockedBy("has_book", has(Items.BOOK))
                 .save(consumer, "ruined_spell_book");
         // 奥法宝典 Tome of Arcana
-        // 新手
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, EBItems.ADVANCED_ARCANE_TOME.get())
+        // 学徒
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, EBItems.APPRENTICE_ARCANE_TOME.get())
                 .pattern("ABA")
                 .pattern("BCB")
                 .pattern("ABA")
@@ -210,9 +210,9 @@ public class ModRecipeProvide extends FabricRecipeProvider {
                 .define('C', EBItems.SPELL_BOOK.get())
                 .unlockedBy("has_spectral_dust", has(ModItemTags.SPECTRAL_DUST))
                 .unlockedBy("has_magic_crystal", has(EBItems.MAGIC_CRYSTAL.get()))
-                .save(consumer, "advanced_arcane_tome");
-        // 学徒
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, EBItems.APPRENTICE_ARCANE_TOME.get())
+                .save(consumer, "apprentice_arcane_tome");
+        // 进阶
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, EBItems.ADVANCED_ARCANE_TOME.get())
                 .pattern("ABA")
                 .pattern("BCB")
                 .pattern("ABA")
@@ -221,7 +221,7 @@ public class ModRecipeProvide extends FabricRecipeProvider {
                 .define('C', EBItems.SPELL_BOOK.get())
                 .unlockedBy("has_spectral_dust", has(ModItemTags.SPECTRAL_DUST))
                 .unlockedBy("has_magic_crystal_block", has(EBBlocks.MAGIC_CRYSTAL_BLOCK.get()))
-                .save(consumer, "apprentice_arcane_tome");
+                .save(consumer, "advanced_arcane_tome");
         // 大师
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, EBItems.MASTER_ARCANE_TOME.get())
                 .pattern("ABA")
