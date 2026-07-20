@@ -1,0 +1,22 @@
+{
+  "name": "『大师』万物吹息之杖",
+  "icon": "ebwizardry:wand_master_earth",
+  "category": "better_ebwizardry:magic_wand",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ebwizardry:wand_master_earth",
+      "text": "    由$(l:magic_wand/wand_advanced_earth)<item>『进阶』游息者魔杖</>升级而来。也会在战利品箱子里有概率开出。$(br2)    $(2)+60%大地属性能力</>每根魔杖都带有<number>5</>个<magic>法术槽位</>，具有<number>2500</>点<magic>魔法上限</>"
+    },
+    {
+      "type": "better_ebwizardry:magic_wand_upgrade_recipe",
+      "magic_wand": "ebwizardry:wand_advanced_earth",
+      "arcane_tome": "ebwizardry:arcane_tome_advanced"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "    魔杖里携带法术时，<keyboard>潜行 + 滑轮</>可切换法术。<keyboard>潜行+右键</>玩家时，会把玩家列入盟友，你的法术将不会误伤到该玩家，召唤物也不会主动攻击玩家。（但对方的法术还是会误伤到你，所以需要双方互相绑定盟友）。"
+    }
+  ]
+}

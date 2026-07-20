@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "ebwizardry:magic_crystal"
+    },
+    "B": {
+      "item": "minecraft:diamond"
+    },
+    "C": {
+      "tag": "better_ebwizardry:spectral_dust"
+    },
+    "D": {
+      "item": "ebwizardry:magic_crystal_grand"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "BDB",
+    "CBA"
+  ],
+  "result": {
+    "item": "ebwizardry:astral_diamond"
+  },
+  "show_notification": true
+}

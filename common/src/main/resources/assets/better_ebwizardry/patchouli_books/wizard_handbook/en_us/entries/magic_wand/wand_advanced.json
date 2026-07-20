@@ -1,0 +1,26 @@
+{
+  "name": "进阶魔杖",
+  "icon": "ebwizardry:wand_advanced",
+  "category": "better_ebwizardry:magic_wand",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ebwizardry:wand_advanced",
+      "text": "    由$(l:magic_wand/wand_apprentice)<item>学徒魔杖</>升级而来。也会在战利品箱子里有概率开出。$(br2)    每根魔杖都带有<number>5</>个<magic>法术槽位</>，具有<number>1500</>点<magic>魔法上限</>，以及<number>6000</>的<magic>熟练度</>进度条。"
+    },
+    {
+      "type": "better_ebwizardry:magic_wand_upgrade_recipe",
+      "magic_wand": "ebwizardry:wand_apprentice",
+      "arcane_tome": "ebwizardry:arcane_tome_apprentice"
+    },
+    {
+      "type": "better_ebwizardry:magic_wand_upgrade_desc",
+      "arcana_tome": "$(l:magic_item/arcane_tome_master)<item>奥术宝典（大师）</>",
+      "magic_wand": "$(l:magic_wand/wand_master)<item>大师魔杖</>"
+    },
+    {
+      "type": "better_ebwizardry:form_team"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "ebwizardry:magic_silk"
+    },
+    "B": {
+      "item": "ebwizardry:magic_crystal"
+    },
+    "C": {
+      "item": "minecraft:feather"
+    },
+    "D": {
+      "item": "ebwizardry:crystal_silver_plating"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "BDB",
+    "CBA"
+  ],
+  "result": {
+    "item": "ebwizardry:ethereal_crystal_weave"
+  },
+  "show_notification": true
+}

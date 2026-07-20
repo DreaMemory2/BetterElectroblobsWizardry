@@ -1,0 +1,19 @@
+{
+  "name": "鉴定卷轴",
+  "icon": "ebwizardry:identification_scroll",
+  "category": "better_ebwizardry:magic_item",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ebwizardry:identification_scroll",
+      "text": "$(l:magic_item/identification_scroll)<item>鉴定卷轴</>用于无伤地鉴定一些未知的<magic>法术</>。只要将未知的<item>法术书</>或<item>法术卷轴</>放在快捷栏靠左，再使用$(l:magic_item/identification_scroll)<item>鉴定卷轴</>即可。$(br2) 鉴定卷轴无法制作，只能通过开箱子或者和巫师交易获得。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "better_ebwizardry:identification_scroll_1",
+      "recipe2": "better_ebwizardry:identification_scroll_2",
+      "text": "$(#CC6633)需要安装“更好巫术学”模组"
+    }
+  ]
+}

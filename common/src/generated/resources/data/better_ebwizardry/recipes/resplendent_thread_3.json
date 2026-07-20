@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:string"
+    },
+    "B": {
+      "item": "ebwizardry:magic_crystal"
+    },
+    "C": {
+      "item": "minecraft:white_wool"
+    },
+    "D": {
+      "item": "ebwizardry:crystal_silver_plating"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "BDB",
+    "CBA"
+  ],
+  "result": {
+    "item": "ebwizardry:resplendent_thread"
+  },
+  "show_notification": true
+}

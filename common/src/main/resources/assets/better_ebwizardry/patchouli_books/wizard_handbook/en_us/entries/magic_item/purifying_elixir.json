@@ -1,0 +1,19 @@
+{
+  "name": "净化圣水",
+  "icon": "ebwizardry:purifying_elixir",
+  "category": "better_ebwizardry:magic_item",
+  "sortnum": 12,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ebwizardry:purifying_elixir",
+      "text": "$(#FFC000)$(l)“一小瓶奇特的金黄色液体，显然有着强力的治愈作用。明智的做法是留存俭用，以备不时之需。”$()$(br2)使用后消除$(c)诅咒$()（$(c)死灵诅咒$()，$(c)衰弱诅咒$()等）。$(br2)只能在地牢开箱子获得，概率很低。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "better_ebwizardry:purifying_elixir_1",
+      "recipe2": "better_ebwizardry:purifying_elixir_2",
+      "text": "$(#CC6633)需要安装“更好巫术学”模组$()"
+    }
+  ]
+}

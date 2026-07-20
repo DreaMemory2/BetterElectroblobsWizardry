@@ -1,0 +1,13 @@
+{
+  "name": "灵尘",
+  "icon": "ebwizardry:spectral_dust_ice",
+  "category": "better_ebwizardry:magic_item",
+  "sortnum": 19,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ebwizardry:spectral_dust_ice",
+      "text": "<a>遗灵</>死亡时有几率掉落。$(br2)注法祭坛的消耗品。"
+    }
+  ]
+}

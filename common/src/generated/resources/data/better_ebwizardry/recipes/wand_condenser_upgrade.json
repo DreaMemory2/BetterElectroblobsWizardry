@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "ebwizardry:crystal_block_magic"
+    },
+    "B": {
+      "tag": "better_ebwizardry:spectral_dust"
+    },
+    "C": {
+      "item": "ebwizardry:magic_crystal_grand"
+    },
+    "D": {
+      "item": "ebwizardry:identification_scroll"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "result": {
+    "item": "ebwizardry:condenser_upgrade"
+  },
+  "show_notification": true
+}

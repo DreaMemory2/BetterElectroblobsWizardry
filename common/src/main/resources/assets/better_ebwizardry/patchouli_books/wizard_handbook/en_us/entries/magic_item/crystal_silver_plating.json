@@ -1,0 +1,32 @@
+{
+  "name": "晶银镶板",
+  "icon": "ebwizardry:crystal_silver_plating",
+  "category": "better_ebwizardry:magic_item",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ebwizardry:crystal_silver_plating",
+      "text": "$(#CC33CC)$(l)“一片近乎神话般的合金，于艾尔达的锻炉中铸造而成，具有出色的魔力偏转特性。”</>$(br2)在$(l:arcane_workbench)<item>奥术工作台</>中使用，将某件巫师装备升级为战斗法师装备。$(br2)只能通过打开战利品箱小概率获得，其中在邪恶巫师塔的箱子内生成的概率更高。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "better_ebwizardry:crystal_silver_plating_1",
+      "recipe2": "better_ebwizardry:crystal_silver_plating_2",
+      "text": "$(#CC6633)需要安装“更好巫术学”模组"
+    },
+    {
+      "type": "crafting",
+      "recipe": "better_ebwizardry:crystal_silver_plating_3",
+      "text": "$(#CC6633)需要安装“更好巫术学”模组"
+    },
+    {
+      "type": "text",
+      "text": "其效果是：$(br)$(li)提高护甲值与盔甲韧性。全套战斗法师装备具有原版钻石套的防御（×10），且每件装备均具有1点盔甲韧性。$(br)$(li)使每件装备能够减少5%法术冷却时间（无元素限制），可与法杖冷却升级叠加。"
+    },
+    {
+      "type": "text",
+      "text": "$(br)$(li)装备全套（同属性）战斗法师装备时，将获得魔法护盾I效果，效果期间脱下任一装备会进入10秒倒计时，随后失效。该效果不受魔力增强效果影响，即在魔力增强效果期间穿戴装备不会增强效果。$(br)$(li)使具有元素属性的巫师装备对相应元素的法术魔力消耗减免效果由10%降低至5%。"
+    }
+  ]
+}

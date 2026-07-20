@@ -1,0 +1,23 @@
+{
+  "name": "魔法水晶",
+  "icon": "ebwizardry:magic_crystal",
+  "category": "better_ebwizardry:magic_item",
+  "sortnum": 24,
+  "pages": [
+	  {
+      "type": "spotlight",
+      "item": "ebwizardry:magic_crystal",
+      "text" : "$(#4F81CC)$(l)“水晶闪耀斑斓的色彩似乎在缓慢地变幻流转，暗示着其内蕴含的魔法能量。或许能以某种方法来驾驭这种魔力……”$()$(br2)将<item>水晶花</>放入<block>工作台</>或者挖掘<block>水晶矿石</>就可以得到的本模组非常重要的资源，可以在$(l:arcane_workbench)<block>奥术工作台</>为本模组的各种法术装备充能，每个<item>魔力水晶</>可以为装备注入<number>100</><magic>魔力</>。<item>魔法水晶</>同时还是重要的的巫师交易货币之一。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "ebwizardry:magic_crystal"
+    },
+    {
+      "type": "quest",
+      "trigger": "ebwizardry:crystal",
+      "title": "一个奇异的水晶...",
+      "text": "当玩家首次获得魔力水晶时会获得进度$(#00B050)【一个奇异的水晶...】$()。"
+    }
+  ]
+}

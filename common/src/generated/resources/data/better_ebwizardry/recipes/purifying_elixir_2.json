@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "ebwizardry:magic_crystal_healing"
+    },
+    "B": {
+      "item": "minecraft:golden_apple"
+    },
+    "C": {
+      "item": "minecraft:golden_carrot"
+    },
+    "D": {
+      "item": "ebwizardry:astral_diamond"
+    },
+    "E": {
+      "item": "ebwizardry:mana_flask_medium"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "result": {
+    "item": "ebwizardry:purifying_elixir"
+  },
+  "show_notification": true
+}

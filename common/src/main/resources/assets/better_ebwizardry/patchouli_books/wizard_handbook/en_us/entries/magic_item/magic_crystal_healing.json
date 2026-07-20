@@ -1,0 +1,13 @@
+{
+  "name": "光辉水晶",
+  "icon": "ebwizardry:magic_crystal_healing",
+  "category": "better_ebwizardry:magic_item",
+  "sortnum": 27,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ebwizardry:magic_crystal_healing",
+      "text": "$(#FFC000)$(l)在日光下闪耀金黄色光芒的水晶。或许它连结着神圣之力……”$()"
+    }
+  ]
+}

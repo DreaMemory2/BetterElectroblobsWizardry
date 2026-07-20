@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "ebwizardry:crystal_block_magic"
+    },
+    "B": {
+      "item": "ebwizardry:magic_crystal"
+    },
+    "C": {
+      "item": "minecraft:iron_sword"
+    },
+    "D": {
+      "item": "ebwizardry:identification_scroll"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "result": {
+    "item": "ebwizardry:melee_upgrade"
+  },
+  "show_notification": true
+}

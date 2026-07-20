@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "ebwizardry:magic_silk"
+    },
+    "B": {
+      "item": "ebwizardry:astral_diamond"
+    },
+    "C": {
+      "item": "minecraft:feather"
+    },
+    "D": {
+      "item": "ebwizardry:mana_flask_medium"
+    },
+    "E": {
+      "tag": "better_ebwizardry:spectral_dust"
+    }
+  },
+  "pattern": [
+    "AEC",
+    "BDB",
+    "CEA"
+  ],
+  "result": {
+    "item": "ebwizardry:ethereal_crystal_weave"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,29 @@
+{
+  "components": [
+    {
+      "type": "patchouli:image",
+      "image": "better_ebwizardry:textures/gui/handbook/pictures/magic_wand.png",
+      "scale": 0.5,
+      "width": 176,
+      "height": 141,
+      "x": 15,
+      "y": 4
+    },
+    {
+      "type": "patchouli:custom",
+      "class": "com.crystal.wizardry.client.compat.ItemChangeableComponent",
+      "item": "#magic_wand",
+      "scale": 0.5,
+      "x": 37,
+      "y": 24
+    },
+    {
+      "type": "patchouli:custom",
+      "class": "com.crystal.wizardry.client.compat.ItemChangeableComponent",
+      "item": "#arcane_tome",
+      "scale": 0.5,
+      "x": 59,
+      "y": 8
+    }
+  ]
+}

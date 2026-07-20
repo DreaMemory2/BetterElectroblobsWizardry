@@ -1,0 +1,13 @@
+{
+  "name": "秘源水晶",
+  "icon": "ebwizardry:magic_crystal_sorcery",
+  "category": "better_ebwizardry:magic_item",
+  "sortnum": 31,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ebwizardry:magic_crystal_sorcery",
+      "text": "$(#00B050)$(l)“散发着碧绿微光的水晶。也许它封存着远古之力的奥秘……”$()"
+    }
+  ]
+}

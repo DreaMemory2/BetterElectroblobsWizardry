@@ -1,0 +1,18 @@
+{
+  "name": "奥术宝典（进阶）",
+  "icon": "ebwizardry:arcane_tome_advanced",
+  "category": "better_ebwizardry:magic_item",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ebwizardry:arcane_tome_advanced",
+      "text": "能将<item>学徒级法杖</>升级成<item>进阶级法杖</>。$(br2)需要<item>学徒级法杖</><magic>熟练度</>达到<number>3500</>才能升级（<keyboard>F3 + H</>高级模式可以看到熟练度）。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "better_ebwizardry:advanced_arcane_tome",
+      "text": "$(#CC6633)需要安装“更好巫术学”模组"
+    }
+  ]
+}

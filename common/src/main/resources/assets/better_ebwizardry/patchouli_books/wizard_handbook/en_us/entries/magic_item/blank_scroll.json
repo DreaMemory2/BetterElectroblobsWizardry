@@ -1,0 +1,18 @@
+{
+  "name": "空白卷轴",
+  "icon": "ebwizardry:blank_scroll",
+  "category": "better_ebwizardry:magic_item",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ebwizardry:blank_scroll",
+      "text": "制作材料：<number>1</>张<item>纸</>和<number>1</>根<item>线</>，无序合成$(br2)用于制作一次性的<item>法术卷轴</>$(br2)将$(l:magic_item/blank_scroll)<item>空白卷轴</>放入$(l:arcane_workbench)<block>奥术工作台</>，再放入<item>法术书</>，最后需要<number>1</>个$(l:magic_item/magic_crystal)<item>魔法水晶</>制作完成。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "ebwizardry:blank_scroll",
+      "text": "$(br2)$(l:magic_item/blank_scroll)<item>空白卷轴</>最大堆叠<number>64</>，制作出的<item>法术卷轴</>最大堆叠<number>16</>。"
+    }
+  ]
+}

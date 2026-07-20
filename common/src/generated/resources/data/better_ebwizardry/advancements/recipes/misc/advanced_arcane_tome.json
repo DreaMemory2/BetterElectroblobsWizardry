@@ -1,0 +1,46 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_magic_crystal_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ebwizardry:crystal_block_magic"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_spectral_dust": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "better_ebwizardry:spectral_dust"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:advanced_arcane_tome"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_spectral_dust",
+      "has_magic_crystal_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:advanced_arcane_tome"
+    ]
+  },
+  "sends_telemetry_event": false
+}

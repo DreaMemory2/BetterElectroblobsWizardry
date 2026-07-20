@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "ebwizardry:crystal_block_magic"
+    },
+    "B": {
+      "item": "ebwizardry:magic_crystal"
+    },
+    "C": {
+      "item": "minecraft:clock"
+    },
+    "D": {
+      "item": "ebwizardry:identification_scroll"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "result": {
+    "item": "ebwizardry:cooldown_upgrade"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,20 @@
+{
+  "name": "巫师手札",
+  "icon": "ebwizardry:wizard_handbook",
+  "category": "better_ebwizardry:magic_item",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ebwizardry:wizard_handbook",
+      "text": "$(#1F497D)$(l)“属于你的、不太能塞进口袋里的奥术艺术指南！对任何满怀雄心壮志，不懈探索以学习魔法知识的巫师而言，这本手札都是不可或缺的。”$()"
+    },
+    {
+      "type": "crafting",
+      "title": "巫师手札",
+      "recipe": "better_ebwizardry:wizard_handbook",
+      "text": "$(#CC6633)需要安装“更好巫术学”和“KubeJS”模组",
+      "flag": "mod:kubejs"
+    }
+  ]
+}

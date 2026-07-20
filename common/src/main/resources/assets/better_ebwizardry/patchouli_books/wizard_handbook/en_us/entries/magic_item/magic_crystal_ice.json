@@ -1,0 +1,13 @@
+{
+  "name": "寒霜水晶",
+  "icon": "ebwizardry:magic_crystal_ice",
+  "category": "better_ebwizardry:magic_item",
+  "sortnum": 28,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ebwizardry:magic_crystal_ice",
+      "text": "$(#00B0F0)$(l)“具有寒冷的霜蓝色调的水晶。或许它蕴藏着冰霜力量的奥秘……”$()"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "better_ebwizardry:item/astral_diamond_shard"
+  }
+}

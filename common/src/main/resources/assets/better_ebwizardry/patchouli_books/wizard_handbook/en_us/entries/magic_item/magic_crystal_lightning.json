@@ -1,0 +1,13 @@
+{
+  "name": "风暴水晶",
+  "icon": "ebwizardry:magic_crystal_lightning",
+  "category": "better_ebwizardry:magic_item",
+  "sortnum": 29,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ebwizardry:magic_crystal_lightning",
+      "text": "$(#31859B)$(l)“似乎有混沌能量在其中流转闪烁的水晶。也许它内部蕴藏着更强大的力量……”$()"
+    }
+  ]
+}

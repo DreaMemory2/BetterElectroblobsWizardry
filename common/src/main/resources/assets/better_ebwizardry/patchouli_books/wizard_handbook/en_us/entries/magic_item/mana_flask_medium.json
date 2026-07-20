@@ -1,0 +1,17 @@
+{
+  "name": "中型魔力瓶",
+  "icon": "ebwizardry:mana_flask_medium",
+  "category": "better_ebwizardry:magic_item",
+  "sortnum": 14,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ebwizardry:mana_flask_medium",
+      "text": "合成材料：<number>4</>个<item>魔力水晶</>和<number>1</>个<item>玻璃瓶</>$(br2)直接与<item>魔杖</>或<item>巫师盔甲</>合成，补充<number>350</>点<magic>魔法</>。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "ebwizardry:mana_flask_medium"
+    }
+  ]
+}

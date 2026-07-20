@@ -1,0 +1,21 @@
+{
+  "name": "破损的法术书",
+  "icon": "ebwizardry:ruined_spell_book",
+  "category": "better_ebwizardry:magic_item",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ebwizardry:ruined_spell_book",
+      "text": "$(l)“这本破旧不堪的法术书中的书页破损严重，已经无法阅读了，但不知为何，你能感受到其中仍有魔法遗存——要是能够复原它……”$()"
+    },
+    {
+      "type": "text",
+      "text": "$(l:magic_item/ruined_spell_book)<item>破损的法术书</>可在各种战利品箱中找到，也可以通过击杀怪物掉落获得，钓鱼时也有一定概率钓到（属于垃圾一类物品，但钓到的概率相对较低）。使用<block>注灵祭坛</>可对其进行修复以获得可使用的<item>法术书</>，耗时<number>6</>秒。$(br2)修复后得到的<item>法术书</>若是没学过的<magic>法术</>，则会呈未鉴定状态的乱码形式，需之后自行鉴定。"
+    },
+    {
+      "type": "text",
+      "text": "$(l)<item>灵尘</>$(l)的种类会影响得到的<magic>法术</>$(l)的所属<magic>元素</>$(l)类型，同种<item>灵尘</>$(l)数量越多，其对应<magic>元素</>$(l)的概率越大（如放置<number>4</>$(l)个$(#A2FCFC)冰</>$(l)属性<item>灵尘</>$(l)，则大概率是$(#A2FCFC)冰</>$(l)<magic>法术</>$(l)；放置<number>3</>$(l)个$(#A2FCFC)冰</>$(l)属性和<number>1</>$(l)个$(#F21515)火</>$(l)属性则较大概率是$(#A2FCFC)冰</>$(l)<magic>法术</>$(l)，较小概率是$(#F21515)火</>$(l)<magic>法术</>$(l)）。小概率会得到不属于任何用于修复<item>法术书</>$(l)的<item>灵尘</>$(l)的<magic>元素</>$(l)属性的<magic>法术。</>$(br2)获得的<item>法术书</>绝大多数时候是新手、$(#33CCCC)学徒</>法术，$(#3333CC)进阶</>法术概率偏小，$(#CC33CC)大师</>法术概率非常非常小。"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "魔法绸缎",
+  "icon": "ebwizardry:magic_silk",
+  "category": "better_ebwizardry:magic_item",
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ebwizardry:magic_silk",
+      "text": "由<number>4</>个<item>线</>和<number>1</>个$(l:magic_item/magic_crystal)<item>魔法水晶</>制作，每次能制作<number>2</>个。$(br2)用于制作<item>巫师帽</>、<item>巫师长袍</>、<item>巫师护腿</>、<item>巫师靴子</>。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "ebwizardry:magic_silk"
+    }
+  ]
+}

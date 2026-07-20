@@ -1,0 +1,13 @@
+{
+  "name": "赤焰水晶",
+  "icon": "ebwizardry:magic_crystal_fire",
+  "category": "better_ebwizardry:magic_item",
+  "sortnum": 26,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ebwizardry:magic_crystal_fire",
+      "text": "$(#FF0000)$(l)“发出烈焰般橙色光彩的水晶。也许是揭示火焰元素奥秘的关键……”$()"
+    }
+  ]
+}

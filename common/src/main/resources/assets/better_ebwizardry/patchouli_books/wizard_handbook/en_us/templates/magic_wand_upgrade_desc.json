@@ -1,0 +1,8 @@
+{
+  "components": [
+    {
+      "type": "patchouli:text",
+      "text": "    熟练度进度可以通过<keyboard>F3 + H</>开启高级提示框查看，或者将法杖放入$(l:arcane_workbench)<block>奥术工作台</>查看。$(br2)    当熟练度达到满值时，便可放入$(l:arcane_workbench)<block>奥术工作台</>，再放入#arcana_tome#，即可消耗宝典将法杖升级为#magic_wand#。"
+    }
+  ]
+}

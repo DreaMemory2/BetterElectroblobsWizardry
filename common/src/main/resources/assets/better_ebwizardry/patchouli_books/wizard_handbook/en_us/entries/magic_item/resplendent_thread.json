@@ -1,0 +1,28 @@
+{
+  "name": "魔辉丝线",
+  "icon": "ebwizardry:resplendent_thread",
+  "category": "better_ebwizardry:magic_item",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ebwizardry:resplendent_thread",
+      "text": "$(#CC33CC)$(l)“一卷微光闪烁的丝线，用于将奥术符文刺绣至绝品的长袍上，以提升其附魔能力。”$()$(br2)在$(l:arcane_workbench)<item>奥术工作台</>中使用，将某件巫师装备升级为$(l)贤者$()装备。$(br2)只能通过打开战利品箱小概率获得，其中在邪恶巫师塔的箱子内生成的概率更高。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "better_ebwizardry:resplendent_thread_1",
+      "recipe2": "better_ebwizardry:resplendent_thread_2",
+      "text": "$(#CC6633)需要安装“更好巫术学”模组"
+    },
+    {
+      "type": "crafting",
+      "recipe": "better_ebwizardry:resplendent_thread_3",
+      "text": "$(#CC6633)需要安装“更好巫术学”模组"
+    },
+    {
+      "type": "text",
+      "text": "其效果是：$(li)提高护甲值，具体是帽子、长袍、护腿均提升1点，靴子不变，全套比原版铁套高1点护甲值（×8）。$(li)提高装备的附魔权重，使其在附魔台上更容易获得更多、更好的附魔（与原版金防具类似）。$(li)使具有元素属性的巫师装备对相应元素的法术魔力消耗减免效果由10%提升至20%。$(li)装备全套（同属性）贤者装备时，该套装所属的元素之外的其它元素的法术魔力消耗额外减少20%。"
+    }
+  ]
+}

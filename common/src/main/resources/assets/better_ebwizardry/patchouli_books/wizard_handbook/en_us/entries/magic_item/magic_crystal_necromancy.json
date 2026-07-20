@@ -1,0 +1,13 @@
+{
+  "name": "邃暗水晶",
+  "icon": "ebwizardry:magic_crystal_necromancy",
+  "category": "better_ebwizardry:magic_item",
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ebwizardry:magic_crystal_necromancy",
+      "text": "$(#8064A2)$(l)“暗紫色外观的水晶，凝视它时仿佛被吸入其中。或许它是通往邃暗的门户……”$()"
+    }
+  ]
+}

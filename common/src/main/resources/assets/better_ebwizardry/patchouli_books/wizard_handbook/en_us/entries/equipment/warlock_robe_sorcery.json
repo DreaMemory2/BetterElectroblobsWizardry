@@ -1,0 +1,13 @@
+{
+  "name": "秘术巫师法袍",
+  "icon": "ebwizardry:warlock_robe_sorcery",
+  "category": "better_ebwizardry:equipment",
+  "pages": [
+    {
+      "type": "better_ebwizardry:imbuement_altar",
+      "processor": "com.crystal.wizardry.client.compat.ImbuementAltarRecipeProcessor",
+      "heading": "秘术巫师法袍配方",
+      "recipe": "ebwizardry:imbuement/warlock_robe_sorcery"
+    }
+  ]
+}

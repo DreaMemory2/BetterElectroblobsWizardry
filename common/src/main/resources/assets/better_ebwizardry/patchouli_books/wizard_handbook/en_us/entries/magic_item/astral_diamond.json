@@ -1,0 +1,23 @@
+{
+  "name": "星芒宝钻",
+  "icon": "ebwizardry:astral_diamond",
+  "category": "better_ebwizardry:magic_item",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ebwizardry:astral_diamond",
+      "text": "$(#8DB3E2)$(l)“一颗稀世珍宝，在星光下熠熠生辉。据说最强大的巫师会寻求星芒宝钻以换取最晦涩的奥术知识。”$()$(br2)<item>$(l:magic_item/astral_diamond)星芒宝钻</>用于和巫师交换大师级的随机<item>法术书</>和$(l:magic_item/arcane_tome_master)<item>奥术宝典（大师）</>。$(br)只能通过开箱以极低的概率获得。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "better_ebwizardry:astral_diamond_1",
+      "recipe2": "better_ebwizardry:astral_diamond_2",
+      "text": "$(#CC6633)需要安装“更好巫术学”模组"
+    },
+    {
+      "type": "text",
+      "text": "【注】在$(l)末地要塞</>的箱子中的生成概率$(l)相对</>较高。"
+    }
+  ]
+}

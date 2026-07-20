@@ -1,0 +1,13 @@
+{
+  "name": "苍翠水晶",
+  "icon": "ebwizardry:magic_crystal_earth",
+  "category": "better_ebwizardry:magic_item",
+  "sortnum": 25,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ebwizardry:magic_crystal_earth",
+      "text": "$(#9BBB59)$(l)“遍布翠绿与褐色图案的水晶。或许它蕴含着与自然之力的联系……”$()"
+    }
+  ]
+}

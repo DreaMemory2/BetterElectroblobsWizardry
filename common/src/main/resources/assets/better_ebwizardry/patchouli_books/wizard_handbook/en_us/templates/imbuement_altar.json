@@ -1,0 +1,45 @@
+{
+  "processor": "com.crystal.wizardry.client.compat.ImbuementAltarRecipeProcessor",
+  "components": [
+    {
+      "type": "patchouli:header",
+      "text": "#heading"
+    },
+    {
+      "type": "patchouli:item",
+      "item": "#input1",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "#input2",
+      "x": 16,
+      "y": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "#input3",
+      "x": 32,
+      "y": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "#input4",
+      "x": 48,
+      "y": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "#center",
+      "x": 0,
+      "y": 16
+    },
+    {
+      "type": "patchouli:item",
+      "item": "#ouput",
+      "x": 16,
+      "y": 16
+    }
+  ]
+}

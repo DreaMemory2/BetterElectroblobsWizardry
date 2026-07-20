@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "ebwizardry:astral_diamond"
+    },
+    "C": {
+      "item": "minecraft:diamond"
+    },
+    "D": {
+      "item": "ebwizardry:mana_flask_medium"
+    },
+    "E": {
+      "tag": "better_ebwizardry:spectral_dust"
+    }
+  },
+  "pattern": [
+    "AEC",
+    "BDB",
+    "CEA"
+  ],
+  "result": {
+    "item": "ebwizardry:crystal_silver_plating"
+  },
+  "show_notification": true
+}

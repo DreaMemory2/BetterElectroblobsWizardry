@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "better_ebwizardry:spectral_dust"
+    },
+    "B": {
+      "item": "ebwizardry:crystal_block_magic"
+    },
+    "C": {
+      "item": "ebwizardry:spell_book"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "result": {
+    "item": "ebwizardry:arcane_tome_advanced"
+  },
+  "show_notification": true
+}

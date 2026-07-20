@@ -1,0 +1,17 @@
+{
+  "name": "魔力水晶碎片",
+  "icon": "ebwizardry:magic_crystal_shard",
+  "category": "better_ebwizardry:magic_item",
+  "sortnum": 23,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ebwizardry:magic_crystal_shard",
+      "text": "$(#4F81CC)$(l)“一小块破碎的魔力水晶。它自身容纳的魔力很少，但也许有其他用途……”$()$(br2)由1个$(l:magic_item/magic_crystal)<item>魔法水晶</>分解或开箱获得。可以制作$(l:magic_item/mana_flask_small)<item>小型魔力瓶</>，也可以放入$(l:arcane_workbench)<block>奥术工作台</>对法术装备充能，每个可注入<number>10</>点<magic>魔力</>。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "ebwizardry:magic_crystal_shard"
+    }
+  ]
+}

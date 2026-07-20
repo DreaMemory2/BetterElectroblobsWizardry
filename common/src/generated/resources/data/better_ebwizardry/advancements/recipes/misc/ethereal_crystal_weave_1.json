@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_astral_diamond": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ebwizardry:astral_diamond"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_medium_mana_flask": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ebwizardry:mana_flask_medium"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:ethereal_crystal_weave_1"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_astral_diamond",
+      "has_medium_mana_flask",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:ethereal_crystal_weave_1"
+    ]
+  },
+  "sends_telemetry_event": false
+}

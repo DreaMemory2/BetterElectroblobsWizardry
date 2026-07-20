@@ -1,0 +1,28 @@
+{
+  "name": "缈晶纹绸",
+  "icon": "ebwizardry:ethereal_crystal_weave",
+  "category": "better_ebwizardry:magic_item",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ebwizardry:ethereal_crystal_weave",
+      "text": "$(#CC33CC)$(l)“一块蕴含魔力的布匹，厚如动物的毛皮，但不知为何，放在手中时的感觉却比薄纸还要轻盈。$()$(br2)在$(l:arcane_workbench)<item>奥术工作台</>中使用，将某件巫师装备升级为$(l)巫术士</>装备。$(br2)只能通过打开战利品箱小概率获得，其中在邪恶巫师塔的箱子内生成的概率更高。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "better_ebwizardry:ethereal_crystal_weave_1",
+      "recipe2": "better_ebwizardry:ethereal_crystal_weave_2",
+      "text": "$(#CC6633)需要安装“更好巫术学”模组"
+    },
+    {
+      "type": "crafting",
+      "recipe": "better_ebwizardry:ethereal_crystal_weave_3",
+      "text": "$(#CC6633)需要安装“更好巫术学”模组"
+    },
+    {
+      "type": "text",
+      "text": "其效果是：$(li)使每件装备能够减少10%法术冷却时间（无元素限制），可与法杖冷却升级叠加。$(li)装备全套（同属性）巫术士装备时，移动速度提升20%，效果期间脱下任一装备会立刻失效。$(li)使巫师装备的魔力（耐久）上限提高33%。"
+    }
+  ]
+}

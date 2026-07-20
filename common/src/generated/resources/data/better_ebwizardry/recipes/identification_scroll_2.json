@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "ebwizardry:crystal_block_magic"
+    },
+    "B": {
+      "item": "ebwizardry:magic_silk"
+    },
+    "C": {
+      "tag": "better_ebwizardry:spectral_dust"
+    },
+    "D": {
+      "item": "ebwizardry:blank_scroll"
+    },
+    "E": {
+      "item": "ebwizardry:spell_book"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "EDE",
+    "CBA"
+  ],
+  "result": {
+    "item": "ebwizardry:identification_scroll"
+  },
+  "show_notification": true
+}

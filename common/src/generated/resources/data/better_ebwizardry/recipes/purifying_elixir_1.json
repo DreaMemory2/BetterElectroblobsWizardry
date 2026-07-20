@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "ebwizardry:magic_crystal_healing"
+    },
+    "B": {
+      "item": "ebwizardry:mana_flask_small"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "result": {
+    "item": "ebwizardry:purifying_elixir"
+  },
+  "show_notification": true
+}

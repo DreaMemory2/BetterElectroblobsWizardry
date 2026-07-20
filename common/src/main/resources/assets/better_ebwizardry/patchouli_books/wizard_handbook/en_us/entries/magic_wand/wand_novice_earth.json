@@ -1,0 +1,25 @@
+{
+  "name": "自然魔杖",
+  "icon": "ebwizardry:wand_novice_earth",
+  "category": "better_ebwizardry:magic_wand",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ebwizardry:wand_novice_earth",
+      "text" : "    大地属性最低级的法杖，需要<number>1</>个<item>苍翠水晶</>、<number>1</>个<item>木棍</>、<number>1</>个<item>金粒</>制作。也会在战利品箱子里有概率开出。$(br2)    $(2)+15%大地属性能力$()。带有<number>5</>个<magic>法术槽位</>，具有<number>700</>点<magic>魔法上限</>，以及<number>2000</>的<magic>熟练度</>进度条。"
+    },
+	  {
+      "type": "crafting",
+      "recipe": "ebwizardry:wand_novice_earth"
+    },
+    {
+      "type": "better_ebwizardry:magic_wand_upgrade_desc",
+      "arcana_tome": "$(l:magic_item/arcane_tome_apprentice)<item>奥术宝典（学徒）</>",
+      "magic_wand": "$(l:magic_wand/wand_apprentice_earth)<item>『学徒』地术师魔杖</>"
+    },
+    {
+      "type": "better_ebwizardry:form_team"
+    }
+  ]
+}

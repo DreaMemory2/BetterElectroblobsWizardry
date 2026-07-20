@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "ebwizardry:magic_crystal"
+    },
+    "C": {
+      "item": "minecraft:diamond"
+    },
+    "D": {
+      "item": "ebwizardry:resplendent_thread"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "BDB",
+    "CBA"
+  ],
+  "result": {
+    "item": "ebwizardry:crystal_silver_plating"
+  },
+  "show_notification": true
+}
