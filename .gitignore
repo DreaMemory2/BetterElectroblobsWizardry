@@ -14,3 +14,8 @@
 /forge/build/
 /forge/run/
 /forge/build/classes/java/main/
+
+# 忽视文件
+*.xml
+*.name
+*.iml

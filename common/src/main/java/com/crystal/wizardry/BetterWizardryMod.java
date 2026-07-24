@@ -1,6 +1,7 @@
 package com.crystal.wizardry;
 
 import com.binaris.wizardry.WizardryMainMod;
+import com.crystal.wizardry.setup.registries.ModBlocks;
 import com.crystal.wizardry.setup.registries.ModItems;
 import dev.architectury.registry.CreativeTabRegistry;
 import net.minecraft.core.registries.Registries;
@@ -17,6 +18,7 @@ public class BetterWizardryMod {
 
     public static void init() {
         // Write common init code here.
+        ModBlocks.BLOCKS.register();
         ModItems.ITEMS.register();
         // 将物品添加已有的创造物品栏
         CreativeTabRegistry.append(WIZARDRY, ModItems.LOCKED_BOOK, ModItems.ASTRAL_DIAMOND_SHARD);
