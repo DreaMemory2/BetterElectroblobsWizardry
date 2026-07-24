@@ -1,6 +1,5 @@
 package com.crystal.wizardry.forge;
 
-import com.binaris.wizardry.client.WizardryForgeClient;
 import com.crystal.wizardry.forge.client.WizardryClientForgeMod;
 import dev.architectury.platform.forge.EventBuses;
 import net.minecraftforge.eventbus.api.IEventBus;
